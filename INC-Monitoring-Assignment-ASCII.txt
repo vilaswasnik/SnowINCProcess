@@ -1,0 +1,161 @@
+═══════════════════════════════════════════════════════════════════════════════════
+                    INC MONITORING AND ASSIGNMENT PROCESS FLOW
+═══════════════════════════════════════════════════════════════════════════════════
+
+┌─────────────────────────────────────────────────────────────────────────────────┐
+│                        PHASE 1: CONTINUOUS QUEUE MONITORING                    │
+│                               (Queue Managers)                                 │
+└─────────────────────────────────────────────────────────────────────────────────┘
+                                         │
+                                         ▼
+                    ┌─────────────────────────────────────┐
+                    │        🔍 Monitor INC Queue        │
+                    │   • Check every 5-10 minutes       │
+                    │   • Auto-refresh dashboard          │
+                    └─────────────────────────────────────┘
+                                         │
+                                         ▼
+                                ◇═══════════════════◇
+                               ◇ 🚨 New INC Detected? ◇
+                                ◇═══════════════════◇
+                                    ▲           │
+                                NO  │           │ YES
+                    ┌───────────────┘           ▼
+                    │
+                    │   ┌─────────────────────────────────────────────────────────┐
+                    │   │                PHASE 2: TEAM AVAILABILITY              │
+                    │   │                     ASSESSMENT                          │
+                    │   └─────────────────────────────────────────────────────────┘
+                    │                              │
+                    │                              ▼
+                    │   ┌────────────────────────────┐    ┌───────────────────────────┐
+                    │   │   👥 Check Current Shift   │    │   📊 Availability Matrix  │
+                    │   │ • Who is online now?       │    │ • Current workload (0-100)│
+                    │   │ • Available team members   │    │ • Active tasks count      │
+                    │   └────────────────────────────┘    │ • Recent assignment       │
+                    │                              │      └───────────────────────────┘
+                    │                              ▼
+                    │   ┌─────────────────────────────────────────────────────────┐
+                    │   │                 PHASE 3: SMART ASSIGNMENT              │
+                    │   │                     ALGORITHM                           │
+                    │   └─────────────────────────────────────────────────────────┘
+                    │                              │
+                    │                              ▼
+                    │                     ◇═══════════════════◇
+                    │                    ◇ 🤔 Check Own Queue ◇
+                    │                   ◇   and Availability  ◇
+                    │                    ◇═══════════════════◇
+                    │                           │        │
+                    │                 Available │        │ Not Available
+                    │                           ▼        ▼
+                    │              ┌──────────────────┐  │
+                    │              │  ✅ Self-Assign  │  │
+                    │              │ • Update status  │  │
+                    │              │ • Add to queue   │  │
+                    │              │ • Set priority   │  │
+                    │              │ • Email requester│  │
+                    │              │ • Start work     │  │
+                    │              └──────────────────┘  │
+                    │                        │           │
+                    │                        ▼           │
+                    │                     [END]          │
+                    │                                    │
+                    │   ┌─────────────────────────────────────────────────────────┐
+                    │   │              PHASE 4: ASSIGNMENT & ESCALATION          │
+                    │   └─────────────────────────────────────────────────────────┘
+                    │                              ▲
+                    └──────────────────────────────┘
+                                                   │
+                                                   ▼
+                                          ◇═══════════════════◇
+                                         ◇  🔍 Find Best Match ◇
+                                          ◇═══════════════════◇
+                                               │        │
+                                     Match Found│        │ No Match
+                                               ▼        ▼
+                           ┌──────────────────────────┐   ┌─────────────────────────┐
+                           │ 👤 Assign to Team Member │   │ ⚠️ Escalate to Leads/  │
+                           │ • Send notification      │   │    Manager              │
+                           │ • Add to their queue     │   │ • No available resources│
+                           └──────────────────────────┘   │ • Critical priority     │
+                                        │                 │ • Manager notification  │
+                                        ▼                 └─────────────────────────┘
+                           ┌─────────────────────────────────────────────────────────┐
+                           │                 PHASE 5: NOTIFICATION                 │
+                           │                  AND FOLLOW-UP                        │
+                           └─────────────────────────────────────────────────────────┘
+                                                   │
+                                                   ▼
+                              ┌─────────────────────────────────────┐
+                              │        📧 Send Notifications        │
+                              │ • Email to requester                │
+                              │ • Start investigating               │
+                              │ • Keep updating progress            │
+                              │ • Escalate to other teams if needed │
+                              └─────────────────────────────────────┘
+                                                   │
+                                                   ▼
+                                                [END]
+
+═══════════════════════════════════════════════════════════════════════════════════
+                                 REFERENCE TABLES
+═══════════════════════════════════════════════════════════════════════════════════
+
+┌─────────────────────────────────────────────────────────────────────────────────┐
+│                             SLA RESPONSE MATRIX                                │
+├─────────────────────────────────────────────────────────────────────────────────┤
+│ 🚨 P1 - Critical    │ Response: 15 minutes  │ Resolution: 2 hours             │
+│ ⚠️  P2 - High        │ Response: 1 hour      │ Resolution: 5 hours             │
+│ 📋 P3 - Medium       │ Response: 8 hours     │ Resolution: 24 hours            │
+│ ℹ️  P4 - Low         │ Response: 16 hours    │ Resolution: 80 hours            │
+└─────────────────────────────────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────────────────────────────────┐
+│                           TEAM CAPACITY DASHBOARD                              │
+├─────────────────────────────────────────────────────────────────────────────────┤
+│ 👤 Resource1 (AM Shift)  │ 🟢 Available (40% load)   │ 📋 2 active tasks    │
+│ 👤 Resource2 (AM Shift)  │ 🟡 Busy (75% load)        │ 📋 4 active tasks    │
+│ 👤 Resource3 (PM Shift)  │ 🔴 Overloaded (95% load)  │ 📋 6 active tasks    │
+└─────────────────────────────────────────────────────────────────────────────────┘
+
+┌─────────────────────────────────────────────────────────────────────────────────┐
+│                              WORK NOTES TEMPLATES                              │
+├─────────────────────────────────────────────────────────────────────────────────┤
+│ ✅ WHEN MOVING TO PENDING:                                                     │
+│   • Steps Performed so far - (before putting ticket in pending stage)         │
+│   • Status - (Current status: team dependency, user validation, etc.)         │
+│   • Next Step - (Next course of action from user end)                         │
+├─────────────────────────────────────────────────────────────────────────────────┤
+│ ✅ WHEN CLOSING INC:                                                           │
+│   • Steps Performed for resolution - (Resolution steps performed)             │
+│   • SNOW teams chat - (Yes/No)                                                │
+│   • Confirmation taken over - (Yes/No)                                        │
+│   • Correct CI selected - (Yes/No)                                            │
+│   • WebEx taken - (Yes/No)                                                    │
+└─────────────────────────────────────────────────────────────────────────────────┘
+
+═══════════════════════════════════════════════════════════════════════════════════
+                              ASSIGNMENT LOGIC CRITERIA
+═══════════════════════════════════════════════════════════════════════════════════
+
+🎯 SMART ASSIGNMENT ALGORITHM:
+   1. Current Load (less than 80%)
+   2. Shift Schedule (AM/PM alignment)
+   3. Recent assignments (fair distribution)
+   4. Skill matching and domain expertise
+   5. Availability status and response time
+
+📊 CAPACITY INDICATORS:
+   • 🟢 Available: 0-60% workload
+   • 🟡 Busy: 61-80% workload  
+   • 🔴 Overloaded: 81-100% workload
+
+⚡ ESCALATION TRIGGERS:
+   • No team members available (<80% capacity)
+   • Critical priority incidents (P1)
+   • Cross-team domain expertise needed
+   • Manager approval required for resource allocation
+
+═══════════════════════════════════════════════════════════════════════════════════
+                                    END OF DIAGRAM
+═══════════════════════════════════════════════════════════════════════════════════
