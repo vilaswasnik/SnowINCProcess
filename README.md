@@ -28,11 +28,12 @@ This repository contains the **INC Monitoring and Assignment Process Flow** diag
 - **Problem**: Wrong person assigned, causing delays and re-work
 - **Solution**: Team availability matrix considering experience and workload
 
-## 📊 **File**
+## 📊 **Files**
 
 | File | Description |
 |------|-------------|
-| [INC-Monitoring-Assignment.drawio](INC-Monitoring-Assignment.drawio) | Complete 5-phase incident monitoring and assignment workflow |
+| [INC-Monitoring-Assignment.drawio](INC-Monitoring-Assignment.drawio) | Complete 5-phase incident monitoring and assignment workflow (Visual) |
+| [INC-Monitoring-Assignment-ASCII.txt](INC-Monitoring-Assignment-ASCII.txt) | Same workflow in ASCII text format for terminal/command-line viewing |
 
 ## 📈 **Expected Results**
 
