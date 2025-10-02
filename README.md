@@ -30,10 +30,15 @@ This repository contains the **INC Monitoring and Assignment Process Flow** diag
 
 ## 📊 **Files**
 
-| File | Description |
-|------|-------------|
-| [INC-Monitoring-Assignment.drawio](INC-Monitoring-Assignment.drawio) | Complete 5-phase incident monitoring and assignment workflow (Visual) |
-| [INC-Monitoring-Assignment-ASCII.txt](INC-Monitoring-Assignment-ASCII.txt) | Same workflow in ASCII text format for terminal/command-line viewing |
+| File | Description | How to View |
+|------|-------------|-------------|
+| [INC-Monitoring-Assignment.drawio](INC-Monitoring-Assignment.drawio) | Complete 5-phase incident monitoring and assignment workflow (Visual) | Open with VS Code + Draw.io extension or upload to [draw.io](https://draw.io) |
+| [INC-Monitoring-Assignment-ASCII.txt](INC-Monitoring-Assignment-ASCII.txt) | Same workflow in ASCII text format for terminal/command-line viewing | View directly in any text editor or GitHub |
+
+### 🔍 **How to View the Draw.io Diagram:**
+1. **VS Code**: Install Draw.io Integration extension and open the `.drawio` file
+2. **Web Browser**: Go to [app.diagrams.net](https://app.diagrams.net) → Open → GitHub → Select this repository
+3. **Download**: Download the `.drawio` file and open with Draw.io desktop app
 
 ## 📈 **Expected Results**
 
