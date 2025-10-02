@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram name="INC Monitoring and Assignment" id="inc-monitoring">
-        <mxGraphModel dx="1240" dy="858" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="1500" math="0" shadow="0" background="#ffffff">
+        <mxGraphModel dx="1120" dy="718" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="1500" background="#ffffff" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -8,7 +8,7 @@
                     <mxGeometry x="228" y="27" width="600" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="phase1-header" value="Phase 1: Continuous Queue Monitoring by QueManagers of the shift" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fontStyle=1;fillColor=#e1d5e7;strokeColor=#9673a6;align=left;verticalAlign=top;" parent="1" vertex="1">
-                    <mxGeometry x="26" y="118" width="224" height="162" as="geometry"/>
+                    <mxGeometry x="41" y="118" width="199" height="62" as="geometry"/>
                 </mxCell>
                 <mxCell id="queue-monitor" value="🔍 Monitor INC Queue&lt;br&gt;• Check every 5-10 minutes&lt;br&gt;• Auto-refresh dashboard" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;align=left;verticalAlign=top;" parent="1" vertex="1">
                     <mxGeometry x="411" y="174" width="200" height="100" as="geometry"/>
@@ -17,25 +17,25 @@
                     <mxGeometry x="440" y="308" width="140" height="80" as="geometry"/>
                 </mxCell>
                 <mxCell id="phase2-header" value="Phase 2: Team Availability Assessment" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fontStyle=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;verticalAlign=top;" parent="1" vertex="1">
-                    <mxGeometry x="26" y="452" width="220" height="134" as="geometry"/>
+                    <mxGeometry x="39" y="441" width="201" height="57" as="geometry"/>
                 </mxCell>
                 <mxCell id="check-shift" value="👥 Check Current Shift&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;br&gt;&lt;/font&gt;• Who is online now from our team?&lt;br&gt;• Available team members&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;verticalAlign=top;" parent="1" vertex="1">
-                    <mxGeometry x="307" y="457" width="200" height="100" as="geometry"/>
+                    <mxGeometry x="314" y="457" width="200" height="100" as="geometry"/>
                 </mxCell>
                 <mxCell id="availability-matrix" value="📊 Availability Matrix&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;br&gt;&lt;/font&gt;• Current workload (0-100%)&lt;/div&gt;&lt;div&gt;• Active tasks count&lt;br&gt;• Recent assignment history&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;verticalAlign=top;" parent="1" vertex="1">
                     <mxGeometry x="542" y="458" width="200" height="100" as="geometry"/>
                 </mxCell>
                 <mxCell id="phase3-header" value="Phase 3: Smart Assignment Algorithm" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;verticalAlign=top;" parent="1" vertex="1">
-                    <mxGeometry x="25" y="716" width="221" height="110" as="geometry"/>
+                    <mxGeometry x="43" y="680" width="196" height="54" as="geometry"/>
                 </mxCell>
                 <mxCell id="check-self" value="🤔 Check Own Queue and&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;Availability" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;verticalAlign=middle;" parent="1" vertex="1">
-                    <mxGeometry x="420" y="640" width="180" height="80" as="geometry"/>
+                    <mxGeometry x="420" y="639" width="180" height="80" as="geometry"/>
                 </mxCell>
                 <mxCell id="self-assign" value="✅ Self-Assign&lt;br&gt;&lt;br&gt;&lt;div&gt;• Update status&lt;br&gt;• Add to own queue&lt;br&gt;• Set priority&lt;br&gt;• Send email to requester that you are working on it. and keep updating progress on the ticket&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(63, 63, 63); background-color: transparent;&quot;&gt;•&amp;nbsp;&lt;/span&gt;Start investigation&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;verticalAlign=top;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
                     <mxGeometry x="666" y="681" width="204" height="149" as="geometry"/>
                 </mxCell>
                 <mxCell id="phase4-header" value="Phase 4: Assignment &amp; Escalation" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fontStyle=1;fillColor=#ffe6cc;strokeColor=#d79b00;align=left;verticalAlign=top;" parent="1" vertex="1">
-                    <mxGeometry x="26" y="945" width="220" height="60" as="geometry"/>
+                    <mxGeometry x="39" y="920" width="201" height="50" as="geometry"/>
                 </mxCell>
                 <mxCell id="find-best-match" value="🔍 Find Best Match" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;align=left;verticalAlign=middle;" parent="1" vertex="1">
                     <mxGeometry x="421" y="840" width="180" height="80" as="geometry"/>
@@ -50,43 +50,43 @@
                     <mxGeometry x="670" y="862" width="200" height="138" as="geometry"/>
                 </mxCell>
                 <mxCell id="escalate" value="⚠️ Escalate to Leads/Manager&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;br&gt;&lt;/font&gt;• No available resources&lt;br&gt;• Critical priority&lt;br&gt;• Manager notification (it can help decide if more resources needed?)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;align=left;verticalAlign=top;" parent="1" vertex="1">
-                    <mxGeometry x="290" y="990" width="250" height="140" as="geometry"/>
+                    <mxGeometry x="322" y="990" width="250" height="140" as="geometry"/>
                 </mxCell>
                 <mxCell id="assignment-logic" value="🎯 Assignment Logic&lt;div&gt;&lt;br&gt;1. Current Load (less than 80%)&lt;br&gt;2. Shift Schedule&lt;br&gt;3. Recent assignments&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;verticalAlign=top;" parent="1" vertex="1">
-                    <mxGeometry x="970" y="333" width="227" height="92" as="geometry"/>
+                    <mxGeometry x="955" y="333" width="227" height="92" as="geometry"/>
                 </mxCell>
                 <mxCell id="capacity-header" value="Real-Time Team Capacity Dashboard" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fontStyle=1;fillColor=#f0f0f0;strokeColor=#666666;align=left;verticalAlign=top;" parent="1" vertex="1">
-                    <mxGeometry x="970" y="438" width="390" height="40" as="geometry"/>
+                    <mxGeometry x="955" y="438" width="390" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="team-member1" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;👤 Resource1 (AM Shift)&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;br&gt;&lt;/font&gt;🟢 Available (40% load)&lt;br&gt;📋 2 active tasks&lt;br&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d4edda;strokeColor=#28a745;align=left;verticalAlign=top;" parent="1" vertex="1">
-                    <mxGeometry x="970" y="484" width="129" height="116" as="geometry"/>
+                    <mxGeometry x="955" y="484" width="129" height="116" as="geometry"/>
                 </mxCell>
                 <mxCell id="team-member2" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;👤&amp;nbsp;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;Resource2&amp;nbsp;&lt;/span&gt;(AM Shift)&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;br&gt;&lt;/font&gt;🟡 Busy (75% load)&lt;br&gt;📋 4 active tasks&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff3cd;strokeColor=#ffc107;align=left;verticalAlign=top;" parent="1" vertex="1">
-                    <mxGeometry x="1110" y="482" width="120" height="118" as="geometry"/>
+                    <mxGeometry x="1095" y="482" width="120" height="118" as="geometry"/>
                 </mxCell>
                 <mxCell id="team-member3" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;👤&amp;nbsp;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;Resource3&lt;/span&gt;&amp;nbsp;(PM Shift)&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;div&gt;🔴 Overloaded (95% load)&lt;br&gt;📋 6 active tasks&lt;br&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8d7da;strokeColor=#dc3545;align=left;verticalAlign=top;" parent="1" vertex="1">
-                    <mxGeometry x="1240" y="482" width="120" height="118" as="geometry"/>
+                    <mxGeometry x="1225" y="482" width="120" height="118" as="geometry"/>
                 </mxCell>
                 <mxCell id="notification-header" value="Phase 5: Notification and Follow-up" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fontStyle=1;fillColor=#f8cecc;strokeColor=#b85450;align=left;verticalAlign=top;" parent="1" vertex="1">
-                    <mxGeometry x="26" y="1220" width="224" height="70" as="geometry"/>
+                    <mxGeometry x="43" y="1202" width="197" height="58" as="geometry"/>
                 </mxCell>
                 <mxCell id="send-notification" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;📧 Send Notifications&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;br&gt;&lt;/font&gt;•&amp;nbsp;&lt;span style=&quot;color: rgb(63, 63, 63); background-color: transparent;&quot;&gt;Team members supposed to Send an email to requester that he is working on it.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251); color: rgb(63, 63, 63);&quot;&gt;•&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: rgb(63, 63, 63);&quot;&gt;Start investigating&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251); color: rgb(63, 63, 63);&quot;&gt;&lt;span style=&quot;color: rgb(63, 63, 63); background-color: transparent;&quot;&gt;•&amp;nbsp;&lt;/span&gt;keep updating progress on the ticket&lt;/span&gt;&lt;span style=&quot;background-color: transparent; scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251); color: rgb(63, 63, 63);&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div style=&quot;scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251); color: rgb(63, 63, 63);&quot;&gt;&lt;br&gt;&lt;/div&gt;• escalate it to others team if it&#39;s not belonging to us&lt;br&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;align=left;verticalAlign=top;" parent="1" vertex="1">
                     <mxGeometry x="616" y="1162" width="312" height="180" as="geometry"/>
                 </mxCell>
                 <mxCell id="sla-header" value="SLA and Priority Response Matrix" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fontStyle=1;fillColor=#f0f0f0;strokeColor=#666666;align=left;verticalAlign=top;" parent="1" vertex="1">
-                    <mxGeometry x="970" y="1040" width="390" height="35" as="geometry"/>
+                    <mxGeometry x="955" y="1040" width="390" height="35" as="geometry"/>
                 </mxCell>
                 <mxCell id="p1-sla" value="🚨 P1 - Critical&lt;br&gt;• Response: 15 minutes&lt;br&gt;• Resolution: 2 hours&lt;br&gt;• 24/7 availability required" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8d7da;strokeColor=#dc3545;align=left;verticalAlign=top;" parent="1" vertex="1">
-                    <mxGeometry x="1075" y="1089" width="184" height="80" as="geometry"/>
+                    <mxGeometry x="1060" y="1089" width="184" height="80" as="geometry"/>
                 </mxCell>
                 <mxCell id="p2-sla" value="⚠️ P2 - High&lt;br&gt;• Response: 1 hour&lt;br&gt;• Resolution: 5 hours&lt;br&gt;• Business hours priority" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff3cd;strokeColor=#ffc107;align=left;verticalAlign=top;" parent="1" vertex="1">
-                    <mxGeometry x="1077" y="1172" width="182" height="80" as="geometry"/>
+                    <mxGeometry x="1062" y="1172" width="182" height="80" as="geometry"/>
                 </mxCell>
                 <mxCell id="p3-sla" value="📋 P3 - Medium&lt;br&gt;• Response: 8 hours&lt;br&gt;• Resolution SLA&amp;nbsp; 24 hours&lt;br&gt;• Standard workflow" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d1ecf1;strokeColor=#bee5eb;align=left;verticalAlign=top;" parent="1" vertex="1">
-                    <mxGeometry x="1077" y="1255" width="182" height="80" as="geometry"/>
+                    <mxGeometry x="1062" y="1255" width="182" height="80" as="geometry"/>
                 </mxCell>
                 <mxCell id="p4-sla" value="ℹ️ P4 - Low&lt;br&gt;• Response: 16 hours&lt;br&gt;• Resolution: 80 hours&lt;br&gt;• Scheduled maintenance" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d4edda;strokeColor=#28a745;align=left;verticalAlign=top;" parent="1" vertex="1">
-                    <mxGeometry x="1079" y="1338" width="184" height="80" as="geometry"/>
+                    <mxGeometry x="1064" y="1338" width="184" height="80" as="geometry"/>
                 </mxCell>
                 <mxCell id="arrow1" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="queue-monitor" target="new-inc-check" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -102,8 +102,8 @@
                 </mxCell>
                 <mxCell id="arrow3" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
-                        <mxPoint x="508" y="508" as="sourcePoint"/>
-                        <mxPoint x="539.9999999999998" y="508" as="targetPoint"/>
+                        <mxPoint x="512" y="508" as="sourcePoint"/>
+                        <mxPoint x="543.9999999999998" y="508" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="arrow4" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" edge="1">
@@ -147,10 +147,10 @@
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="10" value="✅&lt;b&gt; Work Notes when Moving ticket to Pending&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;div&gt;• &lt;b&gt;Steps Perform so far&lt;/b&gt; - (before putting ticket in pending stage)&amp;nbsp;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(63, 63, 63);&quot;&gt;• &lt;b&gt;Status -&lt;/b&gt; (Current status such as other team dependency or user validation or more information needed from requester and so on)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: rgb(63, 63, 63);&quot;&gt;• &lt;b&gt;Next Step&lt;/b&gt; - (Next course of action from user end))&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0f0f0;strokeColor=#666666;align=left;verticalAlign=top;" parent="1" vertex="1">
-                    <mxGeometry x="970" y="670" width="390" height="140" as="geometry"/>
+                    <mxGeometry x="955" y="670" width="390" height="140" as="geometry"/>
                 </mxCell>
                 <mxCell id="11" value="✅ &lt;b&gt;Work Notes when Closing INC&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;div&gt;• &lt;b&gt;Steps Performed for the resolution&lt;/b&gt;&amp;nbsp;- (Resolution steps you have performed)&amp;nbsp;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(63, 63, 63);&quot;&gt;• &lt;b&gt;SNOW teams chat -&lt;/b&gt; (Yes/No)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: rgb(63, 63, 63);&quot;&gt;• &lt;b&gt;Confirmation taken over&lt;/b&gt;&amp;nbsp;- (Yes/No)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: rgb(63, 63, 63);&quot;&gt;•&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: rgb(63, 63, 63);&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;b style=&quot;background-color: transparent; color: rgb(63, 63, 63); scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251);&quot;&gt;Correct CI selected &lt;/b&gt;&lt;span style=&quot;background-color: transparent; color: rgb(63, 63, 63);&quot;&gt;- (Yes/No)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(63, 63, 63);&quot;&gt;• WebEx taken - (Yes/No)&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: rgb(63, 63, 63);&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0f0f0;strokeColor=#666666;align=left;verticalAlign=top;" parent="1" vertex="1">
-                    <mxGeometry x="970" y="820" width="390" height="140" as="geometry"/>
+                    <mxGeometry x="955" y="820" width="390" height="140" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
