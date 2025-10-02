@@ -42,24 +42,31 @@
                         └─────────────────────────────────────────────────────────┘
                                          │
                                          ▼
-                                ◇═══════════════════◇
-                               ◇ 🤔 Check Own Queue ◇
-                              ◇   and Availability  ◇
-                               ◇═══════════════════◇
+                                ◇═══════════════════◇    ┌─────────────────────────┐
+                               ◇ 🤔 Check Own Queue ◇    │   🎯 Assignment Logic   │
+                              ◇   and Availability  ◇    │                         │
+                               ◇═══════════════════◇    │ 1. Current Load (<80%)  │
+                                                         │ 2. Shift Schedule       │
+                                                         │ 3. Recent assignments   │
+                                                         └─────────────────────────┘
                                     │        │
                           Available │        │ Not Available
                                     ▼        ▼
-                         ┌──────────────────┐  │
-                         │  ✅ Self-Assign  │  │
-                         │ • Update status  │  │
-                         │ • Add to queue   │  │
-                         │ • Set priority   │  │
-                         │ • Email requester│  │
-                         │ • Start work     │  │
-                         └──────────────────┘  │
-                                   │           │
-                                   ▼           │
-                                [END]          │
+                         ┌─────────────────────────────────┐  │
+                         │        ✅ Self-Assign        │  │
+                         │                             │  │
+                         │ • Update status             │  │
+                         │ • Add to own queue          │  │
+                         │ • Set priority              │  │
+                         │ • Send email to requester   │  │
+                         │   that you are working on   │  │
+                         │   it and keep updating      │  │
+                         │   progress on the ticket    │  │
+                         │ • Start investigation       │  │
+                         └─────────────────────────────────┘  │
+                                         │                    │
+                                         ▼                    │
+                                      [END]                   │
                                                │
                         ┌─────────────────────────────────────────────────────────┐
                         │              PHASE 4: ASSIGNMENT & ESCALATION          │
@@ -74,13 +81,16 @@
                                                │        │
                                      Match Found│        │ No Match
                                                ▼        ▼
-                           ┌──────────────────────────┐   ┌─────────────────────────┐
-                           │ 👤 Assign to Team Member │   │ ⚠️ Escalate to Leads/  │
-                           │ • Send notification      │   │    Manager              │
-                           │ • Add to their queue     │   │ • No available resources│
-                           └──────────────────────────┘   │ • Critical priority     │
-                                        │                 │ • Manager notification  │
-                                        ▼                 └─────────────────────────┘
+                           ┌──────────────────────────┐   ┌──────────────────────────┐
+                           │ 👤 Assign to Team Member │   │ ⚠️ Escalate to Leads/   │
+                           │                          │   │    Manager               │
+                           │ • Send notification in   │   │                          │
+                           │   teams chat             │   │ • No available resources │
+                           │ • Add to their queue     │   │ • Critical priority      │
+                           └──────────────────────────┘   │ • Manager notification   │
+                                        │                 │   (it can help decide if │
+                                        ▼                 │   more resources needed?)│
+                                                          └──────────────────────────┘
                            ┌─────────────────────────────────────────────────────────┐
                            │                 PHASE 5: NOTIFICATION                 │
                            │                  AND FOLLOW-UP                        │
@@ -89,10 +99,15 @@
                                                    ▼
                               ┌─────────────────────────────────────┐
                               │        📧 Send Notifications        │
-                              │ • Email to requester                │
+                              │                                     │
+                              │ • Team members supposed to Send an  │
+                              │   email to requester that he is     │
+                              │   working on it.                    │
                               │ • Start investigating               │
-                              │ • Keep updating progress            │
-                              │ • Escalate to other teams if needed │
+                              │ • Keep updating progress on ticket  │
+                              │                                     │
+                              │ • Escalate it to others team if     │
+                              │   it's not belonging to us          │
                               └─────────────────────────────────────┘
                                                    │
                                                    ▼
@@ -139,7 +154,12 @@
                               ASSIGNMENT LOGIC CRITERIA
 ═══════════════════════════════════════════════════════════════════════════════════
 
-🎯 SMART ASSIGNMENT ALGORITHM:
+🎯 ASSIGNMENT LOGIC:
+   1. Current Load (less than 80%)
+   2. Shift Schedule
+   3. Recent assignments
+
+🎯 SMART ASSIGNMENT ALGORITHM (DETAILED):
    1. Current Load (less than 80%)
    2. Shift Schedule (AM/PM alignment)
    3. Recent assignments (fair distribution)
