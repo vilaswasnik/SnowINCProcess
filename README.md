@@ -28,11 +28,16 @@ This repository contains the **INC Monitoring and Assignment Process Flow** diag
 - **Problem**: Wrong person assigned, causing delays and re-work
 - **Solution**: Team availability matrix considering experience and workload
 
-## 📊 **Files**
+## 📊 **Process Diagram**
+
+![INC Monitoring and Assignment Process Flow](INC-Monitoring-Assignment.png)
+
+## 📁 **Files**
 
 | File | Description | How to View |
 |------|-------------|-------------|
-| [INC-Monitoring-Assignment.drawio](INC-Monitoring-Assignment.drawio) | Complete 5-phase incident monitoring and assignment workflow (Visual) | Open with VS Code + Draw.io extension or upload to [draw.io](https://draw.io) |
+| [INC-Monitoring-Assignment.png](INC-Monitoring-Assignment.png) | Process diagram in PNG format (displays directly in GitHub) | View directly in GitHub or any image viewer |
+| [INC-Monitoring-Assignment.drawio](INC-Monitoring-Assignment.drawio) | Editable diagram source file | Open with VS Code + Draw.io extension or upload to [draw.io](https://draw.io) |
 | [INC-Monitoring-Assignment-ASCII.txt](INC-Monitoring-Assignment-ASCII.txt) | Same workflow in ASCII text format for terminal/command-line viewing | View directly in any text editor or GitHub |
 
 ### 🔍 **How to View the Draw.io Diagram:**
