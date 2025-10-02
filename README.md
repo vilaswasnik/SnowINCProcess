@@ -21,7 +21,6 @@ Comprehensive workflow for ServiceNow incident management, team assignment, and 
 |------|---------|-------|
 | [INC-Monitoring-Assignment.png](INC-Monitoring-Assignment.png) | Image | Direct viewing in GitHub |
 | [INC-Monitoring-Assignment.drawio](INC-Monitoring-Assignment.drawio) | Editable | VS Code + Draw.io extension |
-| [INC-Monitoring-Assignment-ASCII.txt](INC-Monitoring-Assignment-ASCII.txt) | Text | Terminal/command-line viewing |
 
 ## 🔄 5-Phase Workflow
 
@@ -98,3 +97,4 @@ Comprehensive workflow for ServiceNow incident management, team assignment, and 
 ---
 
 **Status**: ✅ Ready for Enterprise Implementation | **Version**: 1.0 | **Updated**: October 2025
+
